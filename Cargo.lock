@@ -61,6 +61,7 @@ name = "pure-lisp"
 version = "0.1.0"
 dependencies = [
  "quickcheck",
+ "regex",
 ]
 
 [[package]]
