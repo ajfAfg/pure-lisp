@@ -88,7 +88,7 @@ Syntax definition like BNF. Terminal symbols are set of strings enclosed in doub
 ```bnf
 <letter> ::= "A".."Z" | "a".."z"
 
-<ident> ::= (<letter> | "_") {<letter> | "0".."9" | "_" | "'"}
+<ident> ::= <letter> {<letter> | "0".."9"}
 
 <s-expression> ::= <ident>                                 // Symbol
                 | "(" <s-expression> <s-expression> ")"    // Pair
