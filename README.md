@@ -93,7 +93,7 @@ Syntax definition like BNF. Terminal symbols are set of strings enclosed in doub
 <s-expression> ::= <ident>                                 // Symbol
                 | "(" <s-expression> <s-expression> ")"    // Pair
 
-<term> ::= "(" "cond" {"(" <term> <term> ")"} ")" // Branch
+<term> ::= "(" "cond" {"(" <term> <term> ")"} ")"          // Branch
          | "(" "atom" <term> ")"                           // Checking if atom
          | "(" "eq" <term> <term> ")"                      // Checking atom equivalence
          | "(" "car" <term> ")"                            // Taking a head fromm list
