@@ -6,7 +6,7 @@ Note that the semantics is in accordance with that paper, but the syntax is uniq
 
 ## Getting started
 
-Run `cargo run` only. Note that it is useful to use `[rlwrap](https://github.com/hanslub42/rlwrap)` command together.
+Run `cargo run` only. Note that it is useful to use [rlwrap](https://github.com/hanslub42/rlwrap) command together.
 
 ## Examples
 
