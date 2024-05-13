@@ -1,6 +1,6 @@
 # Pure LISP
 
-An implementation of 'McCarthy, John. "Recursive functions of symbolic expressions and their computation by machine, part I." _Communications of the ACM_ 3.4 (1960): 184-195.'.
+An implementation of 'McCarthy, John. "Recursive functions of symbolic expressions and their computation by machine, part I." _Communications of the ACM_ 3.4 (1960): 184-195.'
 
 Note that the semantics is in accordance with that paper, but the syntax is unique, similar to Common Lisp (To cut corners).
 
