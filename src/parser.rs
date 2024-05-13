@@ -137,7 +137,11 @@ impl Parser {
                             args.push(Box::new(self.parse_term()?));
                         }
 
-                        Some(Term::Apply(Box::new(term), args))
+                        if self.0.next_token()? == Token::RParen {
+                            Some(Term::Apply(Box::new(term), args))
+                        } else {
+                            None
+                        }
                     }
                     Token::Label => {
                         let token = self.0.next_token()?;
